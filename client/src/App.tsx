@@ -4,10 +4,8 @@ function App() {
 
 
   return (
-      <div class="w-full h-full bg-black py-0 my-0">
-        <div class=" py-10 my-5 bg-neutral-800 border-e-neutral-900">
-          <h1>123</h1>
-        </div>
+      <div class="w-full h-full bg-black py-0 my-0 sm:h-screen sm:w-full">
+        <div class="w-100 h-50  bg-zinc-900 border-s-sky-100"></div>
       </div>
   )
 }
