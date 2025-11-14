@@ -33,22 +33,6 @@ body {
   overflow-x: hidden; 
 }
 
-body::before {
-  content: "";
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(./assets/backLine.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  opacity: 0.2;
-  z-index: -1; 
-  pointer-events: none;
-}
-
 h3{
   font-size: 1.2em;
   color: #8d8d8d;
@@ -78,7 +62,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.3s;
 }
 button:hover {
   border-color: #7b25ea;
